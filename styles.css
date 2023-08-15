@@ -410,7 +410,7 @@ header.sticky {
     .navbar {
         position: absolute;
         top: 100%;
-        right: -100;
+           right:-100%;                   
         width: 270px;
         height: 100vh;
         display: flex;
@@ -466,7 +466,7 @@ header.sticky {
     :root {
         --h1-font: 3.4rem;
         --h2-font: 2rem;
-        --p-font: 15rem;
+        --p-font: 15px;
     }
 
     .home {
